@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #1D2E28;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .error-box {
+            background-color: #15231E;
+            border: 2px solid #A38A3C;
+            border-radius: 12px;
+            padding: 50px 40px;
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 6rem;
+            font-weight: 800;
+            margin: 0;
+            color: #A38A3C;
+            line-height: 1;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            letter-spacing: 2px;
+        }
+        p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .home-btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #A38A3C;
+            border: 2px solid #A38A3C;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            transition: all 0.3s ease;
+        }
+        .home-btn:hover {
+            background-color: #A38A3C;
+            color: #15231E;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-box">
+        <h1>404</h1>
+        <h2>PAGE NOT FOUND</h2>
+        <p>Stranica koju tražiš ne postoji ili je premeštena.</p>
+        <a href="index.html" class="home-btn">BACK TO HOME</a>
+    </div>
+</body>
+</html>
